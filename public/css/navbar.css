@@ -1,0 +1,25 @@
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.sidebar{
+    background-color: rgb(144, 156, 160);
+    width: 15vw;
+    height: 100vh;
+    font-family: 'Roboto Mono', monospace;
+    padding: 10px;
+}
+.sidebar nav{
+    padding: 15px;
+}
+.sidebar nav li{
+    list-style: none;
+    padding: 15px 0;
+    /* margin-left: 10px; */
+    font-size: 1.3rem;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}

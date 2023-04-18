@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Source+Code+Pro&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    {{!-- <link rel="stylesheet" href="css/portfolio.css"> --}}
+	<link rel="stylesheet" href="css/navbar.css">
+	<link rel="stylesheet" href="css/login.css">
+    <title>Login</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="sidebar">
+            <b>ANKUSH JAIN</b>
+            <nav>
+                <ul>
+                    <li><a href="/index">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/resume">Resume</a></li>
+                    <li><a href="/gallery">Gallery</a></li>
+                    <li><a href="/youtube">YouTube</a></li>
+                    <li><a href="/register">Register</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+                
+                <div class="info">
+					<div class="main-div">
+		<h1>Login Form</h1>
+			<div class="center-div">
+			<main>
+				<form action="/login" method="POST">
+					<button class="gmail-style"  type="submit" name="gmail">Login via Gmail<i class="fa-brands fa-google"></i></button>
+					<button class="fb-style" type="submit" name="facebook">Login via FaceBook<i class="fa-brands fa-facebook-f"></i></button>
+					
+					<label>Email Id: <input type="email" name="email" required ></label>
+					<label>Password: <input type="password" name="password" required ></label>
+					
+					<button type="submit" name="submit">Login Now</button>
+				</form>
+				
+				<br>
+				<br>
+				<p>Don't Have an account <a href="/register" target="_blank">SignUp Here</a></p>
+			</main>
+			<div>
+		</div>
+     </div>
+            
+    </div>
+</body>
+</html>

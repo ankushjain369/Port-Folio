@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&family=Source+Code+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+}
+.sidebar{
+    background-color: rgb(144, 156, 160);
+    width: 20vw;
+    height: 100vh;
+    font-family: 'Roboto Mono', monospace;
+    padding: 10px;
+}
+.sidebar nav{
+    padding: 15px;
+}
+.sidebar nav li{
+    list-style: none;
+    padding: 15px 0;
+    /* margin-left: 10px; */
+    font-size: 1.3rem;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* background-color: lightgreen; */
+    width: 85vw;
+}
+.infocontainer{
+    margin:70px auto;
+    /* background-color: lightcoral; */
+    width: 70vw;
+    height: 70vh;
+    display: flex;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60vw;
+}
+
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px auto;
+}
+form h2{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+.form-group{
+    width: 35%;
+    margin: 10px;
+    font-size: 16px;
+    font-family: 'Source Code Pro', monospace;
+
+}
+.form-control{
+    margin-right: 30px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 5px;
+    min-width: 30vw;
+}
+
+#form-check input{
+    width: 12px;
+    margin: 0px 4px;
+}
+
+.btn{
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    /* width: 5%; */
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}

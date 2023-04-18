@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+}
+.sidebar{
+    background-color: rgb(144, 156, 160);
+    width: 20vw;
+    height: 100vh;
+    font-family: 'Roboto Mono', monospace;
+    padding: 10px;
+}
+.sidebar nav{
+    padding: 15px;
+}
+.sidebar nav li{
+    list-style: none;
+    padding: 15px 0;
+    /* margin-left: 10px; */
+    font-size: 1.3rem;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* background-color: lightgreen; */
+    width: 85vw;
+}
+.infocontainer{
+    margin:70px auto;
+    /* background-color: lightcoral; */
+    width: 70vw;
+    height: 70vh;
+    display: flex;
+    font-family: 'Source Code Pro', monospace;
+}
+.pic{
+    padding: 20px;
+    width: 40vw;
+}
+.pic img{
+    height: 60vh;
+    border-radius: 50%;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60vw;
+}
+.greet{
+    font-size: 30px
+}
+.name{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.intro{
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+.about{
+    font-size: 16px;
+}
+.buttons{
+    margin-top: 15px;
+    padding: 10px;
+}
+.buttons button{
+    padding: 10px;
+    margin: 0 5px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background: lightgrey;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    background-color: black;
+    color: white;
+}

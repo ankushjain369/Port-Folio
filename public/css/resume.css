@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&family=Source+Code+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Source Code Pro', monospace; */
+    font-family: 'Roboto Mono', monospace;
+
+
+}
+.container{
+    display: flex;
+}
+.sidebar{
+    background-color: rgb(144, 156, 160);
+    width: 15vw;
+    height: 100vh;
+    font-family: 'Roboto Mono', monospace;
+    padding: 10px;
+}
+.sidebar nav{
+    padding: 15px;
+}
+.sidebar nav li{
+    list-style: none;
+    padding: 15px 0;
+    font-size: 1.3rem;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* background-color: lightgreen; */
+    width: 80vw;
+    
+}
+.heading{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.heading span{
+    background: black;
+    color: white;
+    padding: 7px 50px;
+    border-radius: 0 0px 15px 15px;
+}
+.infocontainer{
+    margin:30px auto;
+    /* background-color: lightcoral; */
+    width: 75vw;
+    height: 350vh;
+    display: flex;
+    font-family: 'Source Code Pro', monospace;
+
+}
+.left{
+    padding: 25px 15px;
+    background-color: rgb(155, 209, 235);
+    height: 350vh;
+    width: 40vw;
+    border-radius: 50px;
+    
+}
+.right{
+    /* background-color: lightblue; */
+    height: 350vh;
+    width: 50vw;
+    padding: 25px 15px;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+.address{
+    margin: 40px 0;
+    padding-top: 60px;
+    margin-bottom: 0px;
+}
+.address h2{
+    margin-bottom: 10px;
+}
+.contact{
+    margin: 25px 0;
+}
+.contact h2{
+    margin-bottom: 10px;
+}
+.contact h3{
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.skills ul,.hobbies ul{
+    margin: 20px;
+    padding: 10px;
+    margin-top: 0px;
+}
+ul li{
+    margin:4px 0;
+}
+
+.right h2,h3,span,ul{
+    margin-left: 3px;
+}
+.profile,.work,.work1,.education,.certificates,.projects,.software{
+    margin: 0 0 20px 0;
+    font-size: 15px;
+
+}
+.profile h2,.work h2,.education h2,.certificates h2,.projects h2,.software h2{
+    border-bottom: 1px solid black;
+    margin: 5px 0;
+}
+.profile blockquote{
+    margin-top: 7px;
+    line-height: 21px;
+    letter-spacing: 0.35px;
+}
+.work,.work1,.certificates,.projects,.software{
+    margin: 0 0 20px 0;
+}
+.work span,.work1 span{
+    font-weight: 600;
+}
+.work ul,.work1 ul,.certificates ul,.projects ul,.software ul{
+    margin-left: 60px;
+}
+
